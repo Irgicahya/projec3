@@ -1,0 +1,58 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: white;
+}
+.navbar{
+  display: block;
+  background-color: bisque;
+  color:brown;
+  height: 80px;
+
+}
+.navbar .container {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  background-color:white;
+  justify-content: space-between;
+}
+.navbar .container ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.kelas {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "Artikel1 Artikel1 Artikel1 Artikel1 "
+  "Artikel6 Artikel2 Artikel2 Artikel3"
+  "Artikel7 Artikel7 Artikel7 Artikel7"
+  "Artikel4 Artikel4 Artikel5 Artikel5";
+}
+.item1{
+  grid-area: Artikel1;
+}
+.item2{
+  grid-area: Artikel2;
+}
+.item3{
+  grid-area: Artikel3;
+}
+.item4{
+  grid-area: Artikel4;
+}
+.item5{
+  grid-area: Artikel5;
+}
+.item6{
+  grid-area: Artikel6;
+}
+.item7{
+  grid-area: Artikel7;
+} 
